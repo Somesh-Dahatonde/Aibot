@@ -1,5 +1,4 @@
 import "./App.css";
-import Generator from "./pages/Generator";
 import Home from "./pages/Home";
 
 // import Home from "./pages/Home";
@@ -12,7 +11,7 @@ function App() {
         <Routes>
           <Route exact path="/" Component={Home} />
           <Route exact path="/signup" Component={SignUp} />
-          <Route path="/generator" Component={Generator} />
+          {/* <Route path="/generator" Component={Generator} /> */}
         </Routes>
       </Router>
     </>
