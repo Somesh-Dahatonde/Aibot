@@ -115,7 +115,7 @@ function Home() {
                 </svg>
               </label>
             </div>
-            <div className="flex-1 px-2 mx-2">CodeWhiz</div>
+            <div className="flex-1 px-2 mx-2">AirBot</div>
             <div className="flex-none  hidden lg:block">
               <ul className="menu menu-horizontal">
                 <div className="navbar-end flex flex-row">
@@ -242,22 +242,24 @@ function Home() {
                 <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
               </svg>
             </label>
-            <div className="avatar m-20 ">
+            <div className="avatar m-20 flex flex-col gap-6 ">
               <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                 <img
                   alt=""
                   src="https://media.istockphoto.com/id/1389898125/photo/young-woman-chewing-gum-cute-iconic-character-3d-rendering.jpg?s=612x612&w=is&k=20&c=BodYmsmVrbpzrsNyI_ExhvDxkIWgP8XZPMzsv8zUIRA="
                 />
               </div>
+              <p className="text-lg text-gray-400 ml-2">Jhon Deo</p>
             </div>
 
             {/* <!-- Sidebar content here --> */}
             <li>
-              <a href="#!">Sidebar Item 1</a>
+              <a href="#!">Test User </a>
             </li>
             <li>
-              <a href="#!">Sidebar Item 2</a>
+              <a href="#!">Rate Us</a>
             </li>
+
             <li className="m-20">
               <Link to="/Signup" className="btn btn-primary">
                 SignUp
@@ -267,8 +269,8 @@ function Home() {
               <footer className="footer footer-center p-4 bg-base-300 text-base-content ">
                 <div>
                   <p>
-                    CodeWhiz is a platform for developers to practice their
-                    coding skills.
+                    AirBot is a chatbot that can help you to find the best
+                    answer of your questions!.
                   </p>
                 </div>
               </footer>
