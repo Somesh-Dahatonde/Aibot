@@ -26,21 +26,24 @@ function Home() {
     }
     setIsLoading(true); // Start loading animation
     const options = {
-      method: "POST",
-      url: "https://chatgpt53.p.rapidapi.com/",
-      headers: {
-        "content-type": "application/json",
-        "X-RapidAPI-Key": "06d0b44926msh1d7f9a6687fb263p1147fejsn7142c6589dab",
-        "X-RapidAPI-Host": "chatgpt53.p.rapidapi.com",
-      },
-      data: {
-        messages: [
-          {
-            role: "user",
-            content: inputText,
-          },
-        ],
-      },
+  method: 'POST',
+  url: 'https://openai80.p.rapidapi.com/chat/completions',
+  headers: {
+    'content-type': 'application/json',
+    'X-RapidAPI-Key': '06d0b44926msh1d7f9a6687fb263p1147fejsn7142c6589dab',
+    'X-RapidAPI-Host': 'openai80.p.rapidapi.com'
+  },
+  data: {
+    model: 'gpt-3.5-turbo',
+    messages: [
+      {
+        role: 'user',
+        content: 'Hello!'
+      }
+    ]
+  }
+};
+
     };
 
     const userMessage = () => {
